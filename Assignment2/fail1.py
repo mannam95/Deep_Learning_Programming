@@ -1,6 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
+tf.keras.backend.clear_session()
+
 
 # get the data
 (train_images, train_labels), (test_images, test_labels) = tf.keras.datasets.mnist.load_data()
@@ -52,6 +54,8 @@ w_out = tf.Variable(tf.random.uniform([n_units, 10], -w_range, w_range),
                     name="wout")
 b_out = tf.Variable(tf.zeros(10), name="bout")
 
+layers.append([w_out, b_out])
+
 # flatten the layers to get a list of variables
 all_variables = [variable for layer in layers for variable in layer]
 
@@ -60,7 +64,7 @@ def model_forward(inputs):
     x = inputs
     for w, b in layers[:-1]:
         x = tf.nn.relu(tf.matmul(x, w) + b)
-    logits = tf.matmul(x, layers[-1][0] + layers[-1][1])
+    logits = tf.matmul(x, layers[-1][0]) + layers[-1][1]
 
     return logits
 
@@ -85,6 +89,16 @@ for step, (img_batch, lbl_batch) in enumerate(train_data):
         preds = tf.argmax(logits, axis=1, output_type=tf.int32)
         acc = tf.reduce_mean(tf.cast(tf.equal(preds, lbl_batch), tf.float32))
         print("Loss: {} Accuracy: {}".format(xent, acc))
+
+    #Check the gradients
+    #Visualisation cannot happen with tensorboard, since it is giving nan values
+    print("Gradients Start")
+    for grad, var in zip(grads, all_variables):
+        print(tf.norm(grad))
+    print("Gradients End")
+    
+    if step >= 3:
+        break
 
 
 test_preds = model_forward(test_images)
