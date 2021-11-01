@@ -52,6 +52,9 @@ w_out = tf.Variable(tf.random.uniform([n_units, 10], -w_range, w_range),
                     name="wout")
 b_out = tf.Variable(tf.zeros(10), name="bout")
 
+#fix1
+layers.append([w_out, b_out])
+
 # flatten the layers to get a list of variables
 all_variables = [variable for layer in layers for variable in layer]
 
@@ -60,7 +63,8 @@ def model_forward(inputs):
     x = inputs
     for w, b in layers[:-1]:
         x = tf.nn.sigmoid(tf.matmul(x, w) + b)
-    logits = tf.matmul(x, layers[-1][0] + layers[-1][1])
+    #fix2
+    logits = tf.matmul(x, layers[-1][0]) + layers[-1][1]
 
     return logits
 
