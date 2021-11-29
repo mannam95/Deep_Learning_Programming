@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 *.v2
 Assignment6/test.py
+*.h5
