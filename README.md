@@ -49,4 +49,33 @@
 * Further details related to the task can be found in the below task URL.
 * Task URL : [https://ovgu-ailab.github.io/idl2021/ass4.html](https://ovgu-ailab.github.io/idl2021/ass4.html)
 
+### Assignment 5 - IMDB sentiment classification
+#### Submission Details
+* Implemented low-level RNN from scratch.
+* Tried normal RNN, LSTM's
+* Further details related to the task can be found in the below task URL.
+* Task URL : [https://ovgu-ailab.github.io/idl2021/ass5.html](https://ovgu-ailab.github.io/idl2021/ass5.html)
+
+### Assignment 6 - Advanced - IMDB sentiment classification
+#### Submission Details
+* Implemented high-level keras API's.
+* Tried different layers - RNN, LSTM's, GRU's, Stacked RNN's
+* Implemented masking instead of tf.onehot.
+* Further details related to the task can be found in the below task URL.
+* Task URL : [https://ovgu-ailab.github.io/idl2021/ass6.html](https://ovgu-ailab.github.io/idl2021/ass6.html)
+
+### Assignment 7 - Neural Machine Translation (NMT)
+#### Submission Details
+* Implemented a model which can translate from one language to another language
+* Implemented an Encoder, Decoder with attention **(Bahdanau's, Luong)**
+* Sub-classing a model and most of the code is low level and followed this [tutorial](https://www.tensorflow.org/text/tutorials/nmt_with_attention).
+* Further details related to the task can be found in the below task URL.
+* Task URL : [https://ovgu-ailab.github.io/idl2021/ass7.html](https://ovgu-ailab.github.io/idl2021/ass7.html)
+
+### Assignment 8 - 	Word2Vec
+#### Submission Details
+* Coming Soon
+* Further details related to the task can be found in the below task URL.
+* Task URL : [https://ovgu-ailab.github.io/idl2021/ass8.html](https://ovgu-ailab.github.io/idl2021/ass8.html)
+
 
