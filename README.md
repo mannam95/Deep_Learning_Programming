@@ -17,10 +17,12 @@
 
 ## Assignments
 
+<center>
 | #No | Name | Submission_Details |
 | ------------- | ------------- | ------------- |
 | 1 | Multi-Layered-Perceptrons(MLP)  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment1)  |
 | 2  | MLP with TensorBoard  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment2)  |
+</center>
 
 ### Assignment 1 - Multi-Layered-Perceptrons(MLP)
 #### Submission Details
