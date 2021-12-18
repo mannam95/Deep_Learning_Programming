@@ -17,10 +17,10 @@
 
 ## Assignments
 
-| First Header  | Second Header |
+| #No | Name |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 1 | Multi-Layered-Perceptrons(MLP)  |
+| 2  | MLP with TensorBoard  |
 
 ### Assignment 1 - Multi-Layered-Perceptrons(MLP)
 #### Submission Details
