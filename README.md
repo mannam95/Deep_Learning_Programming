@@ -17,6 +17,11 @@
 
 ## Assignments
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 ### Assignment 1 - Multi-Layered-Perceptrons(MLP)
 #### Submission Details
 * Building A Deep Model
