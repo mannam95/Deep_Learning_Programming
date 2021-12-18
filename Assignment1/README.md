@@ -1,5 +1,5 @@
-### Assignment 1 - Multi-Layered-Perceptrons(MLP)
-#### Submission Details
+# Assignment 1 - Multi-Layered-Perceptrons(MLP)
+## Submission Details
 * Building A Deep Model
 * Hand in working code that defines, trains and evaluates an MLP on MNIST!
 * Hand in any additional experiments you tried!
