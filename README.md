@@ -22,6 +22,13 @@
 | ------------- | ------------- | ------------- |
 | 1 | Multi-Layered-Perceptrons(MLP)  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment1)  |
 | 2  | MLP with TensorBoard  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment2)  |
+| 3  | Convolutional-Neural-Nets(CNN's) | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment3)  |
+| 4  | DenseNets, Inception, ResNets | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment4)  |
+| 5  | RNN - IMDB sentiment classification  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment5)  |
+| 6  | RNN - Advanced - IMDB sentiment classification | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment6)  |
+| 7  | Neural Machine Translation (NMT)  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment7)  |
+| 8  | Word2Vec | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment8)  |
+| 9  | AutoEncoders | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment9)  |
 
 ### Assignment 1 - Multi-Layered-Perceptrons(MLP)
 #### Submission Details
