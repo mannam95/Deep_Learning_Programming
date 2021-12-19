@@ -28,7 +28,7 @@
 | 6  | RNN - Advanced - IMDB sentiment classification | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment6)  |
 | 7  | Neural Machine Translation (NMT)  | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment7)  |
 | 8  | Word2Vec | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment8)  |
-| 9  | AutoEncoders | Coming Soon |
+| 9  | AutoEncoders | [View](https://github.com/mannam95/Deep_Learning_Programming/tree/main/Assignment9) |
 
 
 
