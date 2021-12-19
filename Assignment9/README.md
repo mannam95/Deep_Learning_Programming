@@ -1,4 +1,4 @@
-# Assignment 8 - Auto Encoders
+# Assignment 9 - Auto Encoders
 ## Submission Details
 * Implemented Self-Supervised Learning on Fashion-MNIST
 * Labels are not used during Auto Encoders training. The labels are the inputs itself.
